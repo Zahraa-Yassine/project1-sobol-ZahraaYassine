@@ -1,57 +1,57 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
-
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Cairo', sans-serif;
+padding: 0;
+margin: 0;
+font-family: 'Cairo', sans-serif;
 }
 
-body {
-    background-color: aliceblue;
-}
 ul {
-    background-color: rgb(66,64,64);
-    text-align:center;
-    
-    padding-bottom:20px;
+background-color: rgb(65, 59, 59);
+text-align: center;
+
 
 }
+
 ul li {
-        display: inline-block;
-        text-align:center;
-        margin-left:10px;
-        padding:10px;
-}
-ul li:hover {
-            background-color:cadetblue;
-            color: white;
-
+display: inline-block;
+margin: 20px;
 }
 
-    ul li a{
-        color: white;
-        text-decoration:none;
-    }
 
-.main-img {
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/nature2.jfif');
+ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+ul li a:hover{
+    background-color: rgb(224, 224, 120);
+    color: rgb(41, 18, 18);
+    text-decoration: solid;
+
+}
+
+/*start hero section*/
+.hero {
+    height: 400px;
+    background-image: url("/images/s22.jpg");
     background-position: center center;
+    background-color: rgb(128, 108, 108);
+
 }
+
+
 .content {
     width:80%;
     margin:auto;
     text-align:center;
     color:black;
+    margin-top:25px;
+
 
 }
 
 .content p{
     font-size:20px;
-    margin-bottom:15px;
+    margin-bottom:25px;
 }
 content img {
     width:300px;
@@ -67,22 +67,18 @@ content img {
 
 .container h2 {
     margin:20px auto;
-    color:darkslateblue;
+    color:rgb(0, 0, 0);
     font-weight:bold;
     font-size:35px;
 }
 
-
-
-
 .features {
-    display:flex;
+    display:flex; /*layeju 7d  b3d*/
 }
-
 .features .feature {
    padding-top:25px;
    text-align:center;
-   background-color:white;
+   background-color:rgb(243, 241, 241);
    width:30%;
    margin:auto;
    height:200px;
@@ -100,11 +96,10 @@ content img {
 
 .features i {
 
-    background-color:red;
+    background-color:rgb(231, 247, 12);
     padding-top:15px;
     padding-right:15px;
     padding-left:15px;
-    
     margin:10px;
     height:30px;
     width:30px;
@@ -120,56 +115,63 @@ content img {
     margin-bottom:15px;
 }
 
+
+
+
 .contact-us {
     margin-top:50px;
 }
-.contact-form {
-        width: 600px;
+.contact-us .contact-form {
+        width: 700px;
         margin:auto;
-        background-color:white;
-        padding:20px;
+        background-color:rgb(250, 243, 243);
+        padding:50px;
         padding-top:40px;
         border-radius:5px;
         text-align:center;
-       
-
+        border: 1px rgb(226, 226, 88) solid;  
 }
 
 .input-form {
     margin-bottom:20px;
-    
-
 }
 
-    .input-form input {
-        width: 400px;
-        height: 30px;
-        border-radius: 5px;
-        border: 1px solid cadetblue;
-    }
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(227, 245, 70);
+}
 
+.input-form input:focus {
+    border: 1px solid rgb(172, 173, 156);
+    outline: none;
+}
 textarea {
     width: 400px;
-    height: 150px;
+    height: 200px;
     border-radius: 5px;
-    border: 1px solid cadetblue;
+    border: 1px solid rgb(227, 245, 70);
 }
 
-button{
-    background-color:red;
-    border: 1px solid white;
-    height:50px;
-    color:white;
-    cursor:pointer;
-    font-size:30px;
-    width:200px;
-}
+
 
 button:hover {
-    background-color:cadetblue;
-    color:aliceblue;
+    background-color: rgb(202, 202, 83);
+    color: rgb(0, 0, 0);
 }
 
-footer {
-margin-top:20px;
+.send-btn {
+    background-color: rgb(221, 221, 9);
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px;
 }
+footer {
+    margin-top:20px;
+    }
